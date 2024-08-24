@@ -23,7 +23,7 @@ const About = () => {
           </div>
           <div className="mb-16 sm:ml-6 text-sm sm:text-md text-center sm:text-left">
             <p className="sm:mr-16">
-              Hello! I'm Aditya Pagare. I'm a web developer, and I'm very
+              Hello! I&#39;m Aditya Pagare. I&#39;m a web developer, and I&#39;m very
               passionate and dedicated to my work. With 20 years experience as a
               professional web developer, I have acquired the skills and
               knowledge necessary to make your project a success. I enjoy every

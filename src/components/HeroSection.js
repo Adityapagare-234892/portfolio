@@ -15,8 +15,8 @@ const HeroSection = () => {
       <div className="w-full min-h-screen ">
         <img src="/logo/lion.jpg" alt="" className="object-cover w-full h-screen" />
         <div>
-          <p>let's do something lengendary together</p>
-          <h1>Hi! I'm Aditya. </h1>
+          <p>let&#39;s do something lengendary together</p>
+          <h1>Hi! I&#39;m Aditya. </h1>
 
         </div>
       </div>
