@@ -1,0 +1,33 @@
+<p className="uppercase text-sm mx-auto sm:text-[12px] tracking-widest ">
+            let's do something lengendary together
+          </p>
+          <h1 className="text-4xl sm:text-4xl font-bold mx-auto py-2">
+            Hi, I'm <span className="text-purple-500">Aditya</span>
+          </h1>
+          <h1 className="py-2 text-2xl mx-auto sm:text-[30px] font-bold">A Front-End Web Developer</h1>
+          <p className="py-4 mx-auto text-sm max-w-[70%] m-auto ">
+            Aditya's portfolio uses colors such as white and purple to create a
+            consistent web The layout is simple yet well-structured, resulting
+            in a great user experience.
+          </p>
+
+
+
+
+          <div className=" p-2 cursor-pointer hover:scale-125 ease-in duration-300">
+            <FaTwitter size={30} alt="" />
+          </div>
+          <div className=" p-2 sm:p-6 cursor-pointer hover:scale-125 ease-in duration-300">
+            <FaInstagram size={30} />
+          </div>
+          <div className=" p-2 sm:p-6 cursor-pointer hover:scale-125 ease-in duration-300">
+            <FaGithub size={30} />
+          </div>
+          <div className=" p-2 sm:p-6 cursor-pointer hover:scale-125 ease-in duration-300">
+            <FaFacebook size={30} />
+          </div>
+          <div className=" p-2 sm:p-6 cursor-pointer hover:scale-125 ease-in duration-300">
+            <FaLinkedinIn
+              size={30}
+              href="https://www.linkedin.com/in/aditya-pagare-5695a51b9/"
+            />
