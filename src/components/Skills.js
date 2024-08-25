@@ -18,7 +18,7 @@ const Skills = () => {
         </div>
         <div className="mx-8 sm:mx-auto font-bold">
           <div className="sm:gap-5 gap-x-4 gap-y-4 grid sm:grid-cols-4 grid-cols-2 sm:mb-12 sm:mx-20 mt-10 sm:mt-20">
-            <div className="mx-auto px-12 py-10 shadow-2xl">
+            <div className="mx-auto px-12 py-10 shadow-2xl hover:scale-110 ease-in duration-300  ">
               <div className="text-center my-5">
                 <h1 className="text-md">HTML</h1>
               </div>

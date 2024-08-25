@@ -7,7 +7,7 @@ import {
   FaFacebook,
   FaGithub,
   FaInstagram,
-  FaLinkedinIn,
+  FaLinkedin,
   FaTwitter,
 } from "react-icons/fa";
 
@@ -137,19 +137,29 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaTwitter alt />
+                <Link  href="" target="_blank">
+                <FaTwitter/>
+                </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaInstagram href="https://www.instagram.com/theadityapagare" />
+                <Link  href="https://www.instagram.com/theadityapagare/" target="_blank">
+                <FaInstagram/>
+                </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
+                <Link  href="https://github.com/Adityapagare-234892" target="_blank">
+                <FaGithub/>
+                </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaFacebook />
+                <Link  href="https://www.instagram.com/theadityapagare/" target="_blank">
+                <FaFacebook/>
+                </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn href="https://www.google.com" alt />
+                <Link  href="https://www.linkedin.com/in/aditya-pagare-5695a51b9/" target="_blank">
+                <FaLinkedin/>
+                </Link>
                 </div>
               </div>
             </div>

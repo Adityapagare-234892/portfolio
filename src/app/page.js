@@ -6,6 +6,15 @@ import Services from "@/components/Services";
 import Project from "@/components/Project";
 import Contact from "@/components/Contact";
 import Skills from "@/components/Skills";
+import { Montserrat } from "next/font/google";
+
+
+
+const montserrat= Montserrat({
+  weight: ['400', '700'],
+  style: ['normal', ],
+  subsets: ['latin'],
+})
 
 
 function Home() {
@@ -13,7 +22,9 @@ function Home() {
     <>
       <main className="scroll-smooth">
         <Navbar />
+        <div className={montserrat.className}>
         <HeroSection />
+        </div>
         <About/>
         <Skills/>
         <Services/>
