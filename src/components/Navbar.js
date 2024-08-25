@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed z-50 bg-white  w-full h-12 sm:h-20 shadow-xl ">
+    <header className="fixed z-50 bg-white  w-full h-15 sm:h-20 shadow-xl ">
       <div className="flex items-center  justify-between w-full  text-center pt-auto 2xl:px-10">
         <div className="sm:ml-36 ml-7">
           <div>
@@ -28,7 +28,7 @@ const Navbar = () => {
               width={50}
               height={50}
               alt="Picture of the author"
-              className="h-20 w-20"
+              className="sm:h-20 sm:w-20"
             />
           </div>
         </div>
