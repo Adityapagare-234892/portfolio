@@ -5,11 +5,11 @@ const Project = () => {
     <div id="Project" className="my-32">
       <div className="w-full h-[270px]  md:flex text-white flex justify-center items-center bg-[#000000]">
         <div>
-          <h1 className="sm:text-[30px] text-xl font-sans font-bold text-center">
+          <h1 className="sm:text-[30px] text-lg font-sans font-bold text-center">
             Have a project on your mind.
           </h1>
           <div className="px-5 sm:mx-56 mt-5">
-            <p className="text-sm sm:text-lg text-center ">
+            <p className="text-[12px] sm:text-lg text-center ">
               A small river named Duden flows by their place and supplies it
               with the necessary regelialia. It is a paradisematic country, in
               which roasted parts of sentences fly.

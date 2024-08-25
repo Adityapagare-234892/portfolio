@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
         <nav className=" hidden md:flex font-bold text-xs ml-56 mr-36 tracking-widest ">
           <Link
-            href="#HeroSection"
+            href="#Home"
             className="mx-3 hover:underline underline-offset-8"
           >
             HOME
@@ -131,7 +131,7 @@ const Navbar = () => {
               </Link>
             </ul>
 
-            <div className="pt-28">
+            <div className="pt-20">
               <p className="uppercase tracking-widest text-[black]">
                 Let&#39;s connect
               </p>

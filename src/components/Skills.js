@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+
 
 const Skills = () => {
   return (
@@ -20,6 +22,7 @@ const Skills = () => {
               <div className="text-center my-5">
                 <h1 className="text-md">HTML</h1>
               </div>
+              <Link href={"https://www.w3schools.com/html/"} target="_blank">
               <Image
                 src={"/logo/html.png"}
                 width={100}
@@ -27,11 +30,14 @@ const Skills = () => {
                 alt="description of image"
                 className="object-cover"
               />
+              </Link>
             </div>
+            
             <div className="mx-auto px-12 py-10 shadow-2xl">
               <div className="text-center my-5">
                 <h1 className="text-md">Java Script</h1>
               </div>
+              <Link href={"https://www.w3schools.com/js/js_intro.asp"} target="_blank">
               <Image
                 src={"/logo/js.png"}
                 width={100}
@@ -39,13 +45,16 @@ const Skills = () => {
                 alt="description of image"
                 className="object-cover"
               />
+              </Link>
             </div>
+            
 
            
             <div className="mx-auto px-12 py-12 shadow-2xl">
               <div className="text-center my-5">
                 <h1 className="text-md">CSS</h1>
               </div>
+              <Link href={"https://www.w3schools.com/css/css_intro.asp"} target="_blank">
               <Image
                 src={"/logo/social.png"}
                 width={100}
@@ -53,18 +62,21 @@ const Skills = () => {
                 alt="description of image"
                 className="object-cover"
               />
+              </Link>
             </div>
             <div className="mx-auto px-12 py-12 shadow-2xl">
               <div className="text-center my-5">
                 <h1 className="text-md"></h1>REACT
               </div>
-              <Image
+              <Link href={"https://react.dev/"} target="_blank">
+               <Image
                 src={"/logo/React.png"}
                 width={100}
                 height={100}
                 alt="description of image"
                 className="object-cover"
-              />
+               />
+              </Link>
             </div>
           </div>
 
@@ -73,6 +85,7 @@ const Skills = () => {
               <div className="text-center my-5">
                 <h1 className="text-md"></h1>NEXT.JS
               </div>
+              <Link href={"https://nextjs.org/"} target="_blank">
               <Image
                 src={"/logo/Next.js.png"}
                 width={100}
@@ -80,11 +93,13 @@ const Skills = () => {
                 alt="description of image"
                 className="object-cover"
               />
+              </Link>
             </div>
             <div className="mx-auto px-12 py-12 shadow-2xl">
               <div className="text-center my-5">
                 <h1 className="text-md"></h1>TAILWIND CSS
               </div>
+              <Link href={"https://tailwindcss.com/"} target="_blank">
               <Image
                 src={"/logo/Tailwind CSS.png"}
                 width={100}
@@ -92,11 +107,13 @@ const Skills = () => {
                 alt="description of image"
                 className="object-cover"
               />
+              </Link>
             </div>
             <div className="sm:mx-auto px-12 py-12 shadow-2xl">
               <div className="text-center my-5">
                 <h1 className="text-md"></h1>NODE JS
               </div>
+              <Link href={"https://nodejs.org/en"} target="_blank">
               <Image
                 src={"/logo/programing.png"}
                 width={100}
@@ -104,11 +121,13 @@ const Skills = () => {
                 alt="description of image"
                 className="object-cover"
               />
+              </Link>
             </div>
             <div className="sm:mx-auto px-12 py-12 shadow-2xl">
               <div className="text-center my-5">
                 <h1 className="text-md"></h1>TYPESCRIPT
               </div>
+              <Link href={"https://www.typescriptlang.org/"} target="_blank">
               <Image
                 src={"/logo/typescript.png"}
                 width={100}
@@ -116,6 +135,7 @@ const Skills = () => {
                 alt="description of image"
                 className="object-cover"
               />
+              </Link>
             </div>
           </div>
         </div>
