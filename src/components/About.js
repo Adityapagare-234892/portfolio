@@ -12,7 +12,7 @@ const About = () => {
             alt="/"
             width={400}
             height={300}
-            className=" sm:shadow-lg hover:scale-110 duration-1000 overflow-hidden sm:shadow-black h-[350px] object-cover w-full md:w-[525px] sm:w-[525px] md:h-full sm:h-full sm:ml-5 "
+            className=" sm:shadow-lg hover:scale-110 duration-1000 overflow-hidden sm:shadow-black h-[350px] object-cover w-full md:w-[525px] sm:w-[525px] md:h-full sm:h-full sm:ml-5 rounded-lg "
           />
         </div>
         <div className=" mb-14 mx-6 sm:ml-16 ">

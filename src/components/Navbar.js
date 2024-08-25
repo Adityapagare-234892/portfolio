@@ -21,9 +21,9 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed z-50 bg-white  w-full h-20 shadow-xl">
-      <div className="flex items-center  justify-evenly w-full h-full text-center pt-auto 2xl:px-10">
-        <div className="mr-24">
+    <header className="fixed z-50 bg-white  w-full h-20 shadow-xl ">
+      <div className="flex items-center  justify-between w-full  text-center pt-auto 2xl:px-10">
+        <div className="sm:ml-36 ml-7">
         <Image
           src="/logo/aditya.png"
           width={80}
@@ -31,7 +31,7 @@ const Navbar = () => {
           alt="Picture of the author"
         />
         </div>
-        <nav className=" hidden md:flex font-bold text-xs ml-56 mr-12 tracking-widest ">
+        <nav className=" hidden md:flex font-bold text-xs ml-56 mr-36 tracking-widest ">
           <Link href="#HeroSection" className="mx-3 hover:underline underline-offset-8">
             HOME
           </Link>
@@ -69,7 +69,7 @@ const Navbar = () => {
 
         
 
-        <div onClick={handleNav} className="md:hidden">
+        <div onClick={handleNav} className="md:hidden mr-10">
           <AiOutlineMenu size={25} />
         </div>
       </div>
