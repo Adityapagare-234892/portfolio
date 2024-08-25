@@ -11,8 +11,6 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 
-
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -21,18 +19,24 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed z-50 bg-white  w-full h-20 shadow-xl ">
+    <header className="fixed z-50 bg-white  w-full h-12 sm:h-20 shadow-xl ">
       <div className="flex items-center  justify-between w-full  text-center pt-auto 2xl:px-10">
         <div className="sm:ml-36 ml-7">
-        <Image
-          src="/logo/aditya.png"
-          width={80}
-          height={80}
-          alt="Picture of the author"
-        />
+          <div>
+            <Image
+              src="/logo/aditya.png"
+              width={50}
+              height={50}
+              alt="Picture of the author"
+              className="h-20 w-20"
+            />
+          </div>
         </div>
         <nav className=" hidden md:flex font-bold text-xs ml-56 mr-36 tracking-widest ">
-          <Link href="#HeroSection" className="mx-3 hover:underline underline-offset-8">
+          <Link
+            href="#HeroSection"
+            className="mx-3 hover:underline underline-offset-8"
+          >
             HOME
           </Link>
           <Link
@@ -66,8 +70,6 @@ const Navbar = () => {
             CONTACT
           </Link>
         </nav>
-
-        
 
         <div onClick={handleNav} className="md:hidden mr-10">
           <AiOutlineMenu size={25} />
@@ -147,7 +149,7 @@ const Navbar = () => {
                   <FaFacebook />
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn href="https://www.google.com" alt/>
+                  <FaLinkedinIn href="https://www.google.com" alt />
                 </div>
               </div>
             </div>

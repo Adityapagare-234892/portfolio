@@ -22,7 +22,6 @@ const HeroSection = () => {
           <div className="flex justify-center items-center">
           <Image src={"/logo/Addy.jpg"} width={180} height={180} 
           alt="Image"
-          sizes="(max-width: 300px) 100vw, (max-width: 300px) 50vw, 33vw"
           className="object-cover rounded-full sm:w-[250px] sm:h-[250px]"/>
           </div>
           <h1 className="text-center sm:text-md  mt-5 text-white">My Self</h1>
