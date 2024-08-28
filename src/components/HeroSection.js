@@ -21,6 +21,7 @@ const HeroSection = () => {
             <div className="flex justify-center items-center">
             <Image 
                 src={"/logo/Addy.jpg"}
+               
                 width={180}
                 height={180}
                 alt="Image"

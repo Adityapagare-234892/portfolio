@@ -29,7 +29,7 @@ const Services = () => {
               <p className="text-sm">
               UX Designers combine the art of design and technology to create meaningful, enjoyable, and effective user experiences.
               </p>
-              <div className="mt-8 bg-black rounded-md py-2 mx-2  text-white">
+              <div className="mt-12 bg-black rounded-md py-2 mx-2  text-white">
               <button><h1 className="text-md font-sans ">Learn More</h1></button>
               </div>
             </div>
@@ -94,7 +94,7 @@ const Services = () => {
               <p className="text-sm">
               web support professionals help ensure that your site is always running smoothly and meeting the needs of your website.
               </p>
-              <div className="mt-8 bg-black rounded-md py-2 mx-2  text-white">
+              <div className="mt-12 bg-black rounded-md py-2 mx-2  text-white">
               <button><h1 className="text-md font-sans ">Learn More</h1></button>
               </div>
             </div>
@@ -109,7 +109,7 @@ const Services = () => {
               <p className="text-sm">
               Adobe Photoshop is a graphic design and image editing program that can be used to create website mockups
               </p>
-              <div className="mt-8 bg-black rounded-md py-2 mx-2  text-white">
+              <div className="mt-16 bg-black rounded-md py-2 mx-2  text-white">
               <button><h1 className="text-md font-sans ">Learn More</h1></button>
               </div>
             </div>
